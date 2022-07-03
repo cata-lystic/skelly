@@ -37,7 +37,7 @@ body {
 
 /* FAB */
 
-#fab_main{
+#actionButton{
   position: fixed;
   bottom: 10px;
   right: 10px;
@@ -45,7 +45,7 @@ body {
   background-color: #0f2839;
 }
 
-#fab_main {
+#actionButton {
 
   display: inline-block;
   padding: 0;
@@ -76,7 +76,7 @@ body {
 
 }
 
-#fab_main:focus {
+#actionButton:focus {
   //transform:scale(1.1);
   transform:rotate(360deg);
 }
