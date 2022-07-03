@@ -11,6 +11,13 @@ body {
   padding-bottom: 0;
 }
 
+.row {
+  margin-top: 40px;
+}
+.row div {
+  border: 1px solid #8a8a8a;
+}
+
 
 ::-webkit-input-placeholder { /* Chrome */
   color: #beb5b5 !important;
