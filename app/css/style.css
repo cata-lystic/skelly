@@ -4,211 +4,12 @@ html {
 }
 
 body {
-
   background: rgb(47, 47, 47);
   color: #e8e9eb;
   scroll-behavior: smooth;
   margin-bottom: 0;
-padding-bottom: 0;
-}
-
-a {
-  color: #0d94ee;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #0d94ee;
-  text-decoration: underline;
-}
-
-#headerNotice {
-  /*background-image: url('../img/headerNotice.jpg');*/
-  background-color: #ffb020;
-  text-shadow: 1px 1px 1px #fff;
-  color: #000000;
-}
-
-
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #78838b;
-    margin: 1em 0;
-    margin-top: 2rem;
-    padding: 0;
-}
-
-hr.white {
-  border-top: 1px solid #ffffff;
-}
-
-.navbar {
-  color: #ffffff;
-}
-
-.navbar {
-  background-color: #04182c;
-}
-
-.nav-link {
-  color: #ffffff !important;
-  border-radius: 5px;
-}
-
-.nav-link:hover {
-  background: #173f5b !important;
-  border-radius: 5px;
-  color: #ffffff !important;
-  text-decoration: none;
-}
-
-
-#pluginsSection .col-lg-6:nth-child(even), .utilities {
-  background: rgb(66, 66, 66);
-}
-
-#pluginsSection:nth-child(4n-2), #pluginsSection:nth-child(4n-1){
-      background: rgb(66, 66, 66);
-}
-
-#commands .col-md-4:nth-child(even) {
-  background: rgb(66, 66, 66);
-}
-
-.secret {
-  color: #ee9797 !important;
-}
-
-#pluginMenu {
-  background: rgb(31, 29, 29);
-  width: auto;
-  max-width: auto;
-  max-height: auto;
-  height: auto;
-  overflow-x: none;
-  overflow: auto;
-  white-space: nowrap;
-}
-
-#pluginMenu a {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-#pluginMenu div {
-  display: inline-block;
-  text-align: center;
-  text-decoration: none;
-}
-
-#pluginMenu .col-auto:hover {
-  background: rgb(47, 47, 47);
-  border-radius: 5px;
-}
-
-
-footer {
-  background: rgb(31, 29, 29);
-  margin-bottom: 0;
   padding-bottom: 0;
 }
-
-#mainMenu a {
-  color: #CCCCCC;
-}
-
-#pluginsSection div.col-lg-6 {
-  position: relative;
-}
-
-.exampleImage {
-  border: 2px solid rgb(47, 47, 47);
-}
-
-.exampleImage:hover {
-  border: 2px solid rgb(22, 20, 20);
-}
-
-.urlchain {
-  background-image: url('../img/urlchain30.png');
-  background-size: auto;
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  bottom: 8px;
-  right: 8px;
-  display: none;
-}
-
-
-#galleryBox img {
-  max-width: 95%;
-  min-width: 70%;
-  border-radius: 4px;
-  border: #dddddd solid 3px;
-  max-height: 400px;
-  text-align: center;
-  min-height: 300px;
-}
-
-#galleryBox a {
-  margin: 0 auto;
-  min-height: 350px;
-  min-width: 70%;
-}
-
-.ekko-lightbox .modal-content {
-  background: rgb(47, 47, 47);
-  color: #e8e9eb;
-}
-
-
-
-
-.close span {
-  color: #ffffff !important;
-}
-
-
-
-
-input, textarea, select {
-
-  background: #22465e !important;
-  color: #FFFFFF !important;
-
-}
-
-
-
-
-.required {
-
-    color: #FFFFFF !important;
-}
-
-
-.complete {
-  color: green;
-}
-
-.incomplete {
-  color: #aa5600;
-}
-
-
-
- .highlighted, #pluginsSection div.col-lg-6:hover, #commands div.col-md-4:hover {
-   background: rgb(222, 169, 65) !important;
-   background-color: rgba(0, 124, 207, 0.5) !important;
- }
-
- .highlighted a {
-   color: #000000;
- }
 
 
 ::-webkit-input-placeholder { /* Chrome */
@@ -234,92 +35,48 @@ input, textarea, select {
 }
 
 
-
-
-
-
-
 /* FAB */
 
 #fab_main{
-
   position: fixed;
-
   bottom: 10px;
-
   right: 10px;
-
   z-index: 99;
-
   background-color: #0f2839;
-
 }
-
-
-
-
 
 #fab_main {
 
-	display: inline-block;
+  display: inline-block;
+  padding: 0;
+  border: 0;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  font-weight: 800;
+  text-transform: uppercase;
+  outline: 0;
+  font-size: 34px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  color: #fff;
+  opacity: 0;
+  transition: 0.6s ease-in-out;
 
-	padding: 0;
-
-	border: 0;
-
-	vertical-align: middle;
-
-	text-align: center;
-
-	text-decoration: none;
-
-	white-space: nowrap;
-
-	cursor: pointer;
-
-	font-weight: 800;
-
-	text-transform: uppercase;
-
-	outline: 0;
-
-    font-size: 34px;
-
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-
-	border-radius: 50%;
-
-	width: 64px;
-
-	height: 64px;
-
-    color: #fff;
-    opacity: 0;
-
-
-
-    transition: 0.6s ease-in-out;
-
-	& > span {
-
-		display: block;
-
-    	position: relative;
-
-    	overflow: hidden;
-
-        padding: 0px 16px;
-
-	}
+  & > span {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    padding: 0px 16px;
+  }
 
 }
 
-
-
 #fab_main:focus {
-
   //transform:scale(1.1);
-
   transform:rotate(360deg);
-
 }
